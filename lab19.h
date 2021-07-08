@@ -114,6 +114,7 @@ int Unit::heal()
     {
     h=hpmax-hp;
     }
+	
     hp=hp+h;
     return h;
 }
